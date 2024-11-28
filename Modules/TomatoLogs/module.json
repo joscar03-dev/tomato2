@@ -1,0 +1,30 @@
+{
+    "name": "TomatoLogs",
+    "alias": "tomato-logs",
+    "description": {
+        "ar": "Log Viewer for TomatoPHP using Laravel Log Reader",
+        "en": "Log Viewer for TomatoPHP using Laravel Log Reader",
+        "gr": "Log Viewer for TomatoPHP using Laravel Log Reader",
+        "sp": "Log Viewer for TomatoPHP using Laravel Log Reader"
+    },
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\TomatoLogs\\App\\Providers\\TomatoLogsServiceProvider"
+    ],
+    "files": [],
+    "title": {
+        "ar": "Tomato Logs",
+        "en": "Tomato Logs",
+        "gr": "Tomato Logs",
+        "sp": "Tomato Logs"
+    },
+    "color": "#A463BF",
+    "icon": "bx bxs-bug-alt",
+    "placeholder": "placeholder.webp",
+    "type": "plugin",
+    "version": "v1.0",
+    "github" : "https://github.com/tomatophp/tomato-logs-module",
+    "docs" : "https://docs.tomatophp.com/plugins/tomato-logs",
+    "required": ["TomatoRoles"]
+}

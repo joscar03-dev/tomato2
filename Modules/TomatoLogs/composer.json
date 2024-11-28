@@ -1,0 +1,50 @@
+{
+    "name": "tomatophp/tomato-logs-module",
+    "type": "laravel-module",
+    "description": "Log Viewer for TomatoPHP using Laravel Log Reader",
+    "keywords": [
+        "php",
+        "laravel",
+        "log-viewer",
+        "tomatophp",
+        "splade"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fady Mondy",
+            "email": "EngFadyMondy@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\TomatoLogs\\": "",
+            "Modules\\TomatoLogs\\App\\": "app/",
+            "Modules\\TomatoLogs\\Database\\Factories\\": "database/factories/",
+            "Modules\\TomatoLogs\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\TomatoLogs\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.1|^8.2",
+        "tomatophp/console-helpers": "^1.1",
+        "tomatophp/tomato-admin": "^1.2",
+        "tomatophp/tomato-roles-module": "^1.0",
+        "calebporzio/sushi": "^2.3",
+        "jackiedo/log-reader": "^2.2",
+        "joshbrw/laravel-module-installer": "^2.0",
+        "nwidart/laravel-modules": "^10.0"
+    }
+}
